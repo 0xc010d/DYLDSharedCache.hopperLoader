@@ -82,7 +82,7 @@
   return @[];
 }
 
-- (FileLoaderLoadingStatus)loadData:(__unused NSData *)data usingDetectedFileType:(__unused DetectedFileType *)fileType options:(__unused FileLoaderOptions)options forFile:(__unused NSObject <HPDisassembledFile> *)file usingCallback:(__unused FileLoadingCallbackInfo)callback {
+- (FileLoaderLoadingStatus)loadData:(__unused NSData *)data usingDetectedFileType:(__unused NSObject<HPDetectedFileType> *)fileType options:(__unused FileLoaderOptions)options forFile:(__unused NSObject <HPDisassembledFile> *)file usingCallback:(__unused FileLoadingCallbackInfo)callback {
   return DIS_NotSupported;
 }
 
